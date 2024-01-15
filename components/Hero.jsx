@@ -2,7 +2,7 @@ import Link from 'next/link';
 import { Button } from './ui/button';
 import { Download, Send } from 'lucide-react';
 import Video from 'next-video';
-import videoloop from './../videos/bg.mp4'
+// import videoloop from './../videos/bg.mp4'
 
 
 import {
