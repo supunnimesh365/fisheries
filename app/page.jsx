@@ -7,7 +7,7 @@ import Reviews from '@/components/Reviews';
 
 export default function Home() {
   return (
-    <main>
+    <main className=''>
       <Hero />
       <About />
       <Services />

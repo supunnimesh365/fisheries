@@ -10,7 +10,7 @@ import { ThemeProvider } from '@/components/ThemeProvider';
 const outfit = Outfit({ subsets: ['latin'] });
 
 export const metadata = {
-  title: 'Nishantha Enterprises',
+  title: 'Rathnayake Enterprises',
   description: 'Sea food for world',
 };
 
