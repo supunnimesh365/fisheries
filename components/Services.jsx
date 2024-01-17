@@ -16,7 +16,7 @@ const servicesData = [
   },
   {
     icon: <Blocks size={72} strokeWidth={0.8} />,
-    title: 'Sea Food Colection',
+    title: 'Sea Food Collection',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic quasi libero quidem sit deserunt fuga.',
   },
@@ -40,15 +40,15 @@ const Services = () => {
           {servicesData.map((item, index) => {
             return (
               <Card
-                className='w-full max-w-[424px] h-[300px] flex flex-col pt-16 pb-10 justify-center items-center relative'
+                className='w-full max-w-[424px] bg-white bg-opacity-5 h-[300px] flex flex-col pt-16 pb-10 justify-center items-center relative'
                 key={index}
               >
                 <CardHeader className='text-primary absolute -top-[60px]'>
-                  <div className='w-[140px] h-[80px] bg-white dark:bg-background flex justify-center items-center'>
+                  <div className='w-[140px] h-[80px] bg-white bg-opacity-0 dark:bg-background flex justify-center items-center'>
                     {item.icon}
                   </div>
                 </CardHeader>
-                <CardContent className='text-center'>
+                <CardContent className='text-center bg-white bg-opacity-0'>
                   <CardTitle className='mb-4'>{item.title}</CardTitle>
                   <CardDescription className='text-lg'>
                     {item.description}
