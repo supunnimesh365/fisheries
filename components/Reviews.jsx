@@ -98,13 +98,13 @@ const Reviews = () => {
                         priority
                       />
                       {/* name */}
-                      <div className='flex flex-col'>
+                      <div className='flex flex-col text-white'>
                         <CardTitle>{person.name}</CardTitle>
                         <p>{person.job}</p>
                       </div>
                     </div>
                   </CardHeader>
-                  <CardDescription className='text-lg text-muted-foreground'>
+                  <CardDescription className='text-lg text-gray-200'>
                     {person.review}
                   </CardDescription>
                 </Card>

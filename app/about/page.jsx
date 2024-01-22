@@ -11,8 +11,8 @@ const About = () => {
           {/* text */}
           <div className='flex flex-col justify-center'>
             
-            <h1 className='h1 max-w-md mb-8'>About the Company</h1>
-            <p className='subtitle max-w-[400px]'>
+            <h1 className='h1 text-black max-w-md mb-8'>About the Company</h1>
+            <p className=' subtitle max-w-[400px]'>
               You are free to contact us through these methods to tell us what you experienced with our products
             </p>
           </div>

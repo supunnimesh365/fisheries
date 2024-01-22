@@ -11,9 +11,12 @@ const Careers = () => {
           {/* text */}
           <div className='flex flex-col justify-center'>
             
-            <h1 className='h1 max-w-md mb-8'>Available Careers @ Nishantha Enterprises</h1>
-            <p className='subtitle max-w-[400px]'>
+            <h1 className='h1 text-black max-w-md mb-8'>Available Careers @ Nishantha Enterprises</h1>
+            <p className='text-black subtitle max-w-[400px]'>
               You are free to apply to these positions that available at our company if you have eligibility.
+            </p>
+            <p className='text-black subtitle max-w-[400px]'>
+              Currently we have no opened positions
             </p>
           </div>
           {/* illustration */}

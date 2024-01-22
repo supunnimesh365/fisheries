@@ -35,10 +35,10 @@ const Hero = () => {
         <div>
           {/* text */}
           <div className='flex max-w flex-col items-center justify-center mx-auto my-20 text-center'>
-            <div className='text-sm uppercase font-semibold mb-4 text-primary tracking-[4px]'>
+            <div className='uppercase font-bold mb-4 text-primary tracking-[4px]'>
               World Class Fish Exporter
             </div>
-            <h1 className='h1 mb-4'>Rathnayake Enterprises</h1>
+            <h1 className='h1 mb-4 text-white text-foreground'>Rathnayake Enterprises</h1>
             <p className='subtitle mx-auto xl:mx-0'>
               We are the world class sea food exporter in the whole island. We deliver best sea food to the whole world.
             </p>

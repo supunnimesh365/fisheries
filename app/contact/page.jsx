@@ -14,8 +14,8 @@ const Contact = () => {
               <span className='w-[30px] h-[2px] bg-primary'></span>
               Say Hello 👋
             </div>
-            <h1 className='h1 max-w-md mb-8'>Tell us your opinion</h1>
-            <p className='subtitle max-w-[400px]'>
+            <h1 className='text-black h1 max-w-md mb-8'>Tell us your opinion</h1>
+            <p className='text-gray-500 subtitle max-w-[400px]'>
               You are free to contact us through these methods to tell us what you experienced with our products
             </p>
           </div>
@@ -29,17 +29,17 @@ const Contact = () => {
             {/* mail */}
             <div className='flex items-center gap-x-8'>
               <MailIcon size={18} className='text-primary' />
-              <div>youremail@gmail.com</div>
+              <div className='text-black'>youremail@gmail.com</div>
             </div>
             {/* address */}
             <div className='flex items-center gap-x-8'>
               <HomeIcon size={18} className='text-primary' />
-              <div>123/4, Ela kata Road, Wattala</div>
+              <div className='text-black'>123/4, Ela kata Road, Wattala</div>
             </div>
             {/* phone */}
             <div className='flex items-center gap-x-8'>
               <PhoneCall size={18} className='text-primary' />
-              <div>+012 345 6789</div>
+              <div className='text-black'>+012 345 6789</div>
             </div>
           </div>
           <Form />
