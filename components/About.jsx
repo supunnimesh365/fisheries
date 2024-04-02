@@ -148,11 +148,11 @@ const About = () => {
                 </TabsTrigger>
               </TabsList>
               {/* tabs content */}
-              <div className='text-lg mt-12 xl:mt-8'>
+              <div className='flex justify-center text-lg mt-12 xl:mt-8'>
                 {/* personal */}
                 <TabsContent value='personal'>
-                  <div className='text-center xl:text-left'>
-                    <h3 className='h3 mb-4'>
+                  <div className='mx-auto text-center xl:text-left'>
+                    <h3 className='mx-auto h3 mb-4'>
                       Unmatched Service Quality for Over 20 Years
                     </h3>
                     <p className='subtitle max-w-xl mx-auto xl:mx-0'>
