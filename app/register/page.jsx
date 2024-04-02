@@ -17,7 +17,7 @@ const Admin = () => {
           </div>
         </div>
         {/* info text & form */}
-        <RegisterFrm />
+        <RegisterForm />
       </div>
     </section>
   );
