@@ -8,82 +8,46 @@ const productData = [
     image: '/work/fish (5).jpeg',
     category: 'fish',
     name: 'Fish',
-    description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, quis.',
-    link: '/',
-    github: '/',
   },
   {
     image: '/work/fish (1).jpeg',
     category: 'fish',
     name: 'Solstice Website',
-    description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, quis.',
-    link: '/',
-    github: '/',
   },
   {
     image: '/work/fish (2).jpeg',
     category: 'fish',
     name: 'Lumina Website',
-    description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, quis.',
-    link: '/',
-    github: '/',
   },
   {
     image: '/work/fish (3).jpeg',
     category: 'fish',
     name: 'Evolve Website',
-    description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, quis.',
-    link: '/',
-    github: '/',
   },
   {
     image: '/work/fish (4).jpeg',
     category: 'fish',
     name: 'Ignite Website',
-    description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, quis.',
-    link: '/',
-    github: '/',
   },
   {
     image: '/work/fish (6).jpeg',
     category: 'fish',
     name: 'Envision Website',
-    description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, quis.',
-    link: '/',
-    github: '/',
   },
   {
     image: '/work/fish (9).jpeg',
     category: 'fish',
     name: 'Serenity Website',
-    description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, quis.',
-    link: '/',
-    github: '/',
   },
   {
     image: '/work/fish (7).jpeg',
     category: 'other',
     name: 'Nova Website',
-    description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, quis.',
-    link: '/',
-    github: '/',
   },
   {
     image: '/work/fish (8).jpeg',
     category: 'other',
     name: 'Zenith Website',
-    description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, quis.',
-    link: '/',
-    github: '/',
   },
 ];
 

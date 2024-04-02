@@ -12,19 +12,19 @@ const servicesData = [
     icon: <GanttChartSquare size={72} strokeWidth={0.8} />,
     title: 'Fish Supply',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipisi',
+      'We deliver fresh, sustainably sourced fish to markets worldwide, ensuring top quality and timely distribution.',
   },
   {
     icon: <Blocks size={72} strokeWidth={0.8} />,
     title: 'Sea Food Collection',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic quasi libero quidem sit deserunt fuga.',
+      'Our meticulous seafood collection includes a diverse array of ocean treasueres and handles with utmost care.',
   },
   {
     icon: <Gem size={72} strokeWidth={0.8} />,
     title: 'Value addition',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic quasi libero quidem sit deserunt fuga.',
+      'We enhance the quality and appeal of our seafood products through different processes ensuring that every catch becomes a valuable culinary delight.',
   },
 ];
 

@@ -65,18 +65,12 @@ const productData = [
     image: '/work/fish (7).jpeg',
     category: 'other',
     name: 'Nova Website',
-    description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, quis.',
-    link: '/',
     github: '/',
   },
   {
     image: '/work/fish (8).jpeg',
     category: 'other',
     name: 'Zenith Website',
-    description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, quis.',
-    link: '/',
     github: '/',
   },
 ];

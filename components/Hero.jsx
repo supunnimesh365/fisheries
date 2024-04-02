@@ -22,12 +22,13 @@ import { resolve } from 'styled-jsx/css';
 
 const Hero = () => {
   return (
-    <section className=' py-12 xl:py-24 h-[84vh] xl:pt-28 dark:bg-none'>
+    <section className=' py-12 xl:py-24 h-[84vh] xl:pt-28'>
       <video
+          
           muted
           loop
           autoPlay
-          className="fixed -top-2 left-0 min-w-full min-h-full -z-50 object-cover brightness-50 "
+          className="fixed -top-2 left-0 min-w-full min-h-full -z-50 object-cover brightness-50 bg-[#163746] "
         >
           <source src= '/bg.mp4'type="video/mp4" />
           {/* <source src='@/assets/video/videoBg.mp4' type="video/ogg" /> */}
