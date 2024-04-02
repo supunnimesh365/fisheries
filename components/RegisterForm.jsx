@@ -3,6 +3,7 @@
 import { Button } from "./ui/button";
 import { Input } from "./ui/input";
 import { Textarea } from "./ui/textarea";
+import { useRouter } from "next/navigation";
 import {
   User,
   MailIcon,
@@ -12,7 +13,13 @@ import {
 } from "lucide-react";
 import { useState } from "react";
 const RegisterForm = () => {
-  const [info, setInfo] = useState({ username: "", email: "", password: "" });
+  const router = useRouter();
+  const [info, setInfo] = useState({
+    username: "",
+    email: "",
+    password: "",
+    activation: "none",
+  });
   const [error, setError] = useState("");
   const [success, setSuccess] = useState("");
   const [pending, setPending] = useState(false);
@@ -41,7 +48,10 @@ const RegisterForm = () => {
         const successData = await res.json();
         setSuccess(successData.message);
         form.reset();
-        console.log("user registered, It will take some time to gain access to this user, please contact system admin for the more details");
+        router.push("/login");
+        console.log(
+          "user registered, It will take some time to gain access to this user, please contact system admin for the more details"
+        );
       } else {
         const errorData = await res.json();
         setError(errorData.message);

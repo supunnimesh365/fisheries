@@ -12,7 +12,7 @@ const servicesData = [
     icon: <GanttChartSquare size={72} strokeWidth={0.8} />,
     title: 'Fish Supply',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic quasi libero quidem sit deserunt fuga.',
+      'Lorem ipsum dolor sit amet, consectetur adipisi',
   },
   {
     icon: <Blocks size={72} strokeWidth={0.8} />,
@@ -50,7 +50,7 @@ const Services = () => {
                 </CardHeader>
                 <CardContent className='text-center bg-white bg-opacity-0'>
                   <CardTitle className='mb-4'>{item.title}</CardTitle>
-                  <CardDescription className='text-lg'>
+                  <CardDescription className='text-lg text-gray-200'>
                     {item.description}
                   </CardDescription>
                 </CardContent>

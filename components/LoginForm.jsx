@@ -18,7 +18,7 @@ const LoginForm = () => {
         <Input type='password' id='password' placeholder='Password' />
         <KeyIcon className='absolute right-6' size={20} />
       </div>
-      <Button className='bg-[#3F94E0]'>
+      <Button className='bg-[#2fb14f]'>
         Login
         <ArrowRightIcon size={20} />
       </Button>

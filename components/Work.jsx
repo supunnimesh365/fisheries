@@ -20,26 +20,18 @@ const productData = [
     image: '/work/fish (5).jpeg',
     category: 'fish',
     name: 'Fish',
-    description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, quis.',
-    link: '/',
     github: '/',
   },
   {
     image: '/work/fish (1).jpeg',
     category: 'fish',
     name: 'Solstice Website',
-    description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, quis.',
-    link: '/',
     github: '/',
   },
   {
     image: '/work/fish (2).jpeg',
     category: 'fish',
     name: 'Lumina Website',
-    description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, quis.',
     link: '/',
     github: '/',
   },
@@ -47,8 +39,6 @@ const productData = [
     image: '/work/fish (3).jpeg',
     category: 'fish',
     name: 'Evolve Website',
-    description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, quis.',
     link: '/',
     github: '/',
   },
@@ -56,8 +46,6 @@ const productData = [
     image: '/work/fish (4).jpeg',
     category: 'fish',
     name: 'Ignite Website',
-    description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, quis.',
     link: '/',
     github: '/',
   },
@@ -65,8 +53,6 @@ const productData = [
     image: '/work/fish (6).jpeg',
     category: 'fish',
     name: 'Envision Website',
-    description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, quis.',
     link: '/',
     github: '/',
   },
@@ -74,10 +60,6 @@ const productData = [
     image: '/work/fish (9).jpeg',
     category: 'fish',
     name: 'Serenity Website',
-    description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, quis.',
-    link: '/',
-    github: '/',
   },
   {
     image: '/work/fish (7).jpeg',
@@ -120,7 +102,7 @@ const Work = () => {
             slidesPerView={1}
             breakpoints={{
               640: {
-                slidesPerView: 2,
+                slidesPerView: 3,
               },
             }}
             spaceBetween={30}
@@ -128,7 +110,7 @@ const Work = () => {
             pagination={{ clickable: true }}
           >
             {/* show only the first 4 projects for the slides */}
-            {productData.slice(0, 4).map((product, index) => {
+            {productData.slice(0, 8).map((product, index) => {
               return (
                 <SwiperSlide key={index}>
                   <ProjectCard project={product} />

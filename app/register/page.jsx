@@ -3,6 +3,7 @@ import { MailIcon, HomeIcon, PhoneCall } from "lucide-react";
 // components
 import RegisterForm from "@/components/RegisterForm";
 import { useState } from "react";
+import { useRouter } from "next/navigation";
 
 const Admin = () => {
   return (
@@ -16,7 +17,7 @@ const Admin = () => {
           </div>
         </div>
         {/* info text & form */}
-        <RegisterForm />
+        <RegisterFrm />
       </div>
     </section>
   );
