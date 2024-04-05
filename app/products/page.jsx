@@ -35,7 +35,7 @@ const productData = [
     name: 'Tiger Prawns',
   },
   {
-    image: '/work/Kalanda.jpg',
+    image: '/work/kalanda.jpg',
     category: 'Fish',
     name: 'Kalanda',
   },
